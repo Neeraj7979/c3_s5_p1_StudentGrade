@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d69b850-c849-4042-bcbf-c4a3900240b5" name="Changes" comment="created constructor and calculate Marks method for all streams">
-      <change afterPath="$PROJECT_DIR$/src/com/marks/StudentMarksImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="0d69b850-c849-4042-bcbf-c4a3900240b5" name="Changes" comment="declared methods calculateMarks for different streams">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/marks/StudentMarks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marks/StudentMarks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/c3_s5_p1_StudentGrade.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/marks/StudentMarksImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/marks/StudentMarksImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661094869401</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="declared methods calculateMarks for different streams">
+      <created>1661140981852</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661140981852</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Declared attribute and getter and setter method for StudentMarks class" />
     <MESSAGE value="created constructor and calculate Marks method for all streams" />
-    <option name="LAST_COMMIT_MESSAGE" value="created constructor and calculate Marks method for all streams" />
+    <MESSAGE value="declared methods calculateMarks for different streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="declared methods calculateMarks for different streams" />
   </component>
 </project>

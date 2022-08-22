@@ -1,0 +1,5 @@
+Total Marks of Medical steam student s1
+totalMarks = 237.0
+Total Marks of Non Medical steam student s2
+totalMarks = 242.0
+Total Marks Business stream : 238
