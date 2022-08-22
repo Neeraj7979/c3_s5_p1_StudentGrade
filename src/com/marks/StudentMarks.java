@@ -7,70 +7,32 @@ public class StudentMarks {
     private double chemistry;
     private int businessStudies;
     private int finance;
-    private int accountancy;
+    private float accountancy;
     private int totalMarks;
+    public StudentMarks(int physics,int chemistry,double biology){
+        this.physics=physics;
+        this.chemistry=chemistry;
+        this.biology=biology;
 
-    public int getMath() {
-        return math;
+    } public StudentMarks(int physics,int chemistry,int math){
+        this.physics=physics;
+        this.chemistry=chemistry;
+        this.math=math;
+
+    } public StudentMarks(int businessStudies,int finance,float accountancy){
+        this.businessStudies=businessStudies;
+        this.finance=finance;
+        this.accountancy=accountancy;
+
     }
 
-    public void setMath(int math) {
-        this.math = math;
-    }
 
-    public double getBiology() {
-        return biology;
+    public int calculateMarks(int physics,int chemistry,double biology){
+       return totalMarks= (int) (physics+chemistry+biology);
+    } public int calculateMarks(int physics,int chemistry,int math){
+        return totalMarks=physics+chemistry+math;
     }
-
-    public void setBiology(double biology) {
-        this.biology = biology;
-    }
-
-    public int getPhysics() {
-        return physics;
-    }
-
-    public void setPhysics(int physics) {
-        this.physics = physics;
-    }
-
-    public double getChemistry() {
-        return chemistry;
-    }
-
-    public void setChemistry(double chemistry) {
-        this.chemistry = chemistry;
-    }
-
-    public int getBusinessStudies() {
-        return businessStudies;
-    }
-
-    public void setBusinessStudies(int businessStudies) {
-        this.businessStudies = businessStudies;
-    }
-
-    public int getFinance() {
-        return finance;
-    }
-
-    public void setFinance(int finance) {
-        this.finance = finance;
-    }
-
-    public int getAccountancy() {
-        return accountancy;
-    }
-
-    public void setAccountancy(int accountancy) {
-        this.accountancy = accountancy;
-    }
-
-    public int getTotalMarks() {
-        return totalMarks;
-    }
-
-    public void setTotalMarks(int totalMarks) {
-        this.totalMarks = totalMarks;
+    public int calculateMarks(int businessStudies,int finance,float accountancy){
+       return totalMarks= (int) (businessStudies+finance+accountancy);
     }
 }
